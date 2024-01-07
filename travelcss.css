@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width:100%;
+    background:linear-gradient(to top,rgb(0, 0, 0,0.5)50%,rgb(0, 0, 0,0.5)50%),url(https://balanceandpotential.com/wp-content/uploads/2019/12/bigstock-Happy-Woman-Jumping-And-Enjoyi-287424487.jpg);
+    background-position: center;
+    background-size: cover;
+    height:69vh;
+    position:relative;
+}
+.navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+}
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+.logo{
+color:white;
+font-size:25px;
+font-family:Papyrus;
+float:left;
+padding-top: 20px;
+margin-left:1px !important;
+}
+.menu{
+    width:400px;
+    float:right;
+    height:70px;
+}
+ul{
+    float:right;
+    display:flex;
+    
+}
+ul li{
+    list-style:none;
+    margin-left:62px;
+    margin-top:27px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    font-family:arial;
+    font-weight:LIGHTER;
+    transition:0.4s ease-in-out; 
+}
+ul li a:hover{
+    color:orange;
+}
+.quotes{
+    margin-left:80px;
+ margin-top:10px;
+ width:300px;
+ height:270px;
+text-align:center;
+font-size:30px;
+line-height: 45px;
+}
+.dis{
+    position:relative;
+    display:block;
+
+}
+.disname{
+    width:100%;
+    height:50px;
+    text-align:center;
+    color:black;
+    font-size:40px;
+    background-color:rgb(218, 210, 210) ;
+    font-family: 'Brush Script MT', cursive;
+
+}
+.second{
+    margin-top:157px;  
+}
+.covai{
+    height:390px;
+    width:100%;
+    background-color:rgb(218, 210, 210);
+    margin-top:0px;
+    display:flex;
+    gap:10px;
+    overflow-x: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+     
+}
+.covai::-webkit-scrollbar {
+    display: none;
+}
+.the{
+color:black;
+font-family: 'Brush Script MT', cursive;
+font-size:45px;
+padding-top:10px;
+width:200px;
+}
+.first{
+    width:260px;
+    height:320px;
+    background:linear-gradient(to top,white 50%,rgb(255, 255, 255) 50%),url(https://balanceandpotential.com/wp-content/uploads/2019/12/bigstock-Happy-Woman-Jumping-And-Enjoyi-287424487.jpg);
+    margin-top:10px;
+    border:0px;
+    border-radius:5px;
+    padding:5px;
+.name
+{
+    text-align:left;
+    font-size:26px;
+    font-weight: lighter;
+    padding:13px;
+    color:rgb(76, 45, 231);
+    text-align:center;
+    text-decoration-line:none;
+    font-family:'Brush Script MT', cursive;
+}
